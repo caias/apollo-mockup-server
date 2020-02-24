@@ -21,4 +21,4 @@ npm run compile:dev
 npm run start:dev
 ```
 
-try connectlocalhost:8000
+try connect localhost:8000

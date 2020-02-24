@@ -1,0 +1,37 @@
+{
+  "name": "graphql-with-express-apollo",
+  "version": "1.0.0",
+  "description": "mockup data setting and make API module with graphql&express",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/caias/graphql-apollo-sample.git"
+  },
+  "keywords": [
+    "graphql",
+    "express",
+    "typescript",
+    "apollo"
+  ],
+  "author": "caias <caias1018@gmail.com>",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/caias/graphql-apollo-sample/issues"
+  },
+  "homepage": "https://github.com/caias/graphql-apollo-sample#readme",
+  "devDependencies": {
+    "@babel/core": "^7.8.4",
+    "@babel/preset-env": "^7.8.4",
+    "@types/express": "^4.17.2",
+    "@typescript-eslint/eslint-plugin": "^2.20.0",
+    "@typescript-eslint/parser": "^2.20.0",
+    "apollo-server-express": "^2.10.1",
+    "eslint": "^6.8.0",
+    "express": "^4.17.1",
+    "graphql": "^14.6.0",
+    "typescript": "^3.8.2"
+  }
+}
