@@ -1,27 +1,27 @@
 import express from 'express';
 import { ApolloServer, gql } from 'apollo-server-express';
-import teamMemberData from './mockup/teamData.json';
+import teamData from './mockup/teamData.json';
 
 const typeDefs = gql`
-  type Members {
+  type Member {
     name: String
     email: String
   }
 
   type Query {
-    getTeamMember: [Members]
+    members: [Member]
   }
 `;
 
-const resolvers = {
+const resolver = {
   Query: {
-    getTeamMember: () => teamMemberData,
+    members: () => teamData,
   }
 }
 
 const server = new ApolloServer({
   typeDefs,
-  resolvers,
+  resolvers: resolver,
   playground: true,
 });
 

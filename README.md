@@ -13,12 +13,12 @@ use graphql &amp; apollo mockup data setting and make api module
 1) First need Typescript compile.
 
 ```bash
-npm run build
+npm run compile
 ```
 
 2) lunch the server.
 ```
-npm run server
+npm run start
 ```
 
 try connect localhost:7077
