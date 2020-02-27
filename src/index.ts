@@ -1,27 +1,38 @@
-const express = require('express');
-const { ApolloServer, gql } = require('apollo-server-express');
-const app = express();
+import express from 'express';
+import { ApolloServer, gql } from 'apollo-server-express';
+import teamMemberData from './mockup/teamData.json';
 
 const typeDefs = gql`
+  type Members {
+    name: String
+    email: String
+  }
+
   type Query {
-    hello: String
+    getTeamMember: [Members]
   }
 `;
 
 const resolvers = {
   Query: {
-    hello: () => 'Hello World',
-  },
-};
+    getTeamMember: () => teamMemberData,
+  }
+}
 
 const server = new ApolloServer({
   typeDefs,
   resolvers,
+  playground: true,
 });
 
-server.applyMiddlware({ app });
+const app = express();
+
+server.applyMiddleware({ 
+  app,
+  path: '/graphql',
+});
 
 app.listen( { port:7077 }, () => {
-  console.log('server start');
+  console.log('server 7077 port start');
 })
 
