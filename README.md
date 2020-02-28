@@ -1,23 +1,28 @@
 # graphql-apollo Prototype Mockup Server
-use graphql &amp; apollo mockup data setting and make api module
+use apollo server &amp; fot mockup data setting and make api module
 
 ## used Tech
 
 * express
 * Node.js
-* graphQL
 * Apollo
 
 ## How to Install
+1) install
+```bash
+npm i
+  
+yarn
+```
 
-1) First need Typescript compile.
+2) First need Typescript compile.
 
 ```bash
 npm run compile
 ```
 
-2) lunch the server.
-```
+3) lunch the server.
+```bash
 npm run start
 ```
 

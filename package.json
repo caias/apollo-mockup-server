@@ -1,7 +1,7 @@
 {
-  "name": "graphql-with-express-apollo",
-  "version": "1.0.0",
-  "description": "mockup data setting and make API module with graphql&express",
+  "name": "apollo-mockup-server",
+  "version": "1.0.1",
+  "description": "mockup data setting and make API module with apollo&express",
   "main": "index.js",
   "scripts": {
     "compile": "tsc -w",
@@ -31,7 +31,6 @@
     "@typescript-eslint/parser": "^2.20.0",
     "apollo-server-express": "^2.10.1",
     "eslint": "^6.8.0",
-    "graphql": "^14.6.0",
     "nodemon": "^2.0.2",
     "typescript": "^3.8.2"
   }

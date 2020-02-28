@@ -1,0 +1,47 @@
+[
+  {
+    "duration": {
+      "date": "YYYY.MM.DD ~ YYYY.MM.DD",
+      "time": "08:00 ~ 18:00"
+    },
+    "value": {
+      "type": "EVENT",
+      "link": "https://www.dummylink.com",
+      "imgUrl": "https://dummyimage.com/720x400/ff0808/fff.png&text=event+01",
+      "imgAlt": "event01",
+      "imgWidth": 720,
+      "imgHeight": 400
+    },
+    "pushAgree": false
+  },
+  {
+    "duration": {
+      "date": "YYYY.MM.DD ~ YYYY.MM.DD",
+      "time": "08:00 ~ 18:00"
+    },
+    "value": {
+      "type": "EVENT",
+      "link": "https://www.dummylink.com",
+      "imgUrl": "https://dummyimage.com/720x400/ff8400/fff.png&text=event+02",
+      "imgAlt": "event02",
+      "imgWidth": 720,
+      "imgHeight": 400
+    },
+    "pushAgree": false
+  },
+  {
+    "duration": {
+      "date": "YYYY.MM.DD ~ YYYY.MM.DD",
+      "time": "08:00 ~ 18:00"
+    },
+    "value": {
+      "type": "EVENT",
+      "link": "https://www.dummylink.com",
+      "imgUrl": "https://dummyimage.com/720x400/0051ff/fff.png&text=event+03",
+      "imgAlt": "event03",
+      "imgWidth": 720,
+      "imgHeight": 400
+    },
+    "pushAgree": false
+  }
+]
