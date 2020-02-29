@@ -8,6 +8,9 @@ const RootSchema = gql`
   type Query {
     root: String
   }
+  type Mutation{
+    root: String
+  }
 `;
 
 const RootResolver = {

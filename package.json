@@ -1,6 +1,6 @@
 {
   "name": "apollo-mockup-server",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "mockup data setting and make API module with apollo&express",
   "main": "index.js",
   "scripts": {

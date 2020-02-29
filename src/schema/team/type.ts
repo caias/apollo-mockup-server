@@ -8,4 +8,9 @@ export const teamSchema = gql`
   extend type Query {
     members: [Member]
   }
+  extend type Mutation {
+    addMember(name: String!, email: String!): Member!
+    deleteMember(name: String!): Boolean!
+    editMemberName(name: String!, editName: String!): String!
+  }
 `;
